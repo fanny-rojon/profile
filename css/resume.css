@@ -70,7 +70,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #75DDDD;
+  background-color: #ED7DD3;
 }
 
 .dev-icons {
@@ -169,5 +169,5 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #ED7DD3;
 }
