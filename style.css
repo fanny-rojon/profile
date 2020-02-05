@@ -32,13 +32,15 @@ li {
   padding: 0 20px;
 }
 
-span {
+a {
   position: relative;
   display: block;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
 
-span:before, span:after {
+a:before, a:after {
   content: '';
   position: absolute;
   width: 0%;
@@ -48,22 +50,22 @@ span:before, span:after {
   background: #fff;
 }
 
-span:before {
+a:before {
   left: -2.5px;
 }
-span:after {
+a:after {
   right: 2.5px;
   background: #fff;
   transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
-span:hover:before {
+a:hover:before {
   background: #fff;
   width: 100%;
   transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
-span:hover:after {
+a:hover:after {
   background: transparent;
   width: 100%;
   transition: 0s;
