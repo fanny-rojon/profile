@@ -8,21 +8,22 @@
 
   <title>Fanny Rojon</title>
 
-  <!-- Bootstrap core CSS -->
+  <!-- Bootstrap stylesheet -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
+  <!-- Fonts stylesheets -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
-  <!-- Custom styles for this template -->
+  <!-- CSS stylesheet -->
   <link href="css/style.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body class="random-background">
+  <!-- <img src="img/backgrounds/rotate.php" alt="A Random Image" /> -->
   <div class="container">
     <ul>
       <li><a href="about-me.html">About me</a></li>
@@ -33,6 +34,16 @@
 <!--   <div class="header">
 
   </div> -->
+  <!-- Random background script -->
+  <script  type="text/javascript">
+    function changeImg(imgNumber) {
+      var myImages = ["img/backgrounds/background1.jpg", "img/backgrounds/background2.jpg"];
+      var imgShown = document.body.style.backgroundImage;
+      var newImgNumber =Math.floor(Math.random()*myImages.length);
+      document.body.style.backgroundImage = 'url('+myImages[newImgNumber]+')';
+    }
+    window.onload=changeImg;
+  </script>
 
 </body>
 

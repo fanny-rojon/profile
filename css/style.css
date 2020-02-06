@@ -6,7 +6,8 @@ body {
   height: 100vh;
   margin: 0;
   /*background: #333;*/
-  background-image: url("../img/background.jpg");
+  /*background-image: url("../img/backgrounds/rotate.php");*/
+  /*background-image: url("../img/background.jpg");*/
   background-size: cover;
   background-position: center;
   font-family: 'Roboto Condensed', sans-serif;
@@ -16,6 +17,8 @@ body {
   text-transform: uppercase;
   color: #fff;
 }
+
+.bg {background-attachment:fixed; background-repeat: no-repeat; background-position:top right;}
 
 .container {
   display: table-cell;
