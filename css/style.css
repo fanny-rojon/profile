@@ -9,6 +9,7 @@ body {
   /*background-image: url("../../img/background.jpg")*/
   background-image: url("https://images.unsplash.com/photo-1502320332898-8ec6e74e147f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
   background-size: cover;
+  background-position: center;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
   font-weight: 300;
